@@ -61,3 +61,32 @@ Ejecutamos nuestra imagen:
 Demostración:
 
 ![¡page](img/apge.PNG)
+
+# Parte B
+
+creamos la maquina virtual de azure con debian, una vez configurada 
+con docker:
+
+Creamos un index-html:
+
+![index](img/index.PNG)
+
+realizamos el siguiente comando:
+
+```
+docker pull nginx:latest 
+```
+
+![nginx](img/nginxPNG.PNG)
+
+Ejecutamos el contenedor con el index.html creado anterioirmente y con la imagen de nginx
+
+![exec](img/exec.PNG)
+
+Vamos a la maquina virtual creada / redes y añadimos el puerto 80:
+
+![azure](img/azure.PNG)
+
+Abrimos en el navegador con nuestra ip:
+
+![ip](img/ip.PNG)
