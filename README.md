@@ -1,4 +1,4 @@
-# Nginx-docker
+# Nginx-docker Lapini Alessandro y Serra Josep
 
 # Primero de todo nos instalamos el docker de nginx de dockerhub
 
